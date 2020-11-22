@@ -71,7 +71,7 @@ endmodule
 
 //FF tipo D de 1 bit
 module FF_D(input wire clock, reset, enable, d, output reg Y);
-  always @ (posedge clock, posedge reset, posedge enable) begin
+  always @ (posedge clock, posedge reset) begin
     if(reset) begin
       Y <= 1'b0;
     end
