@@ -1,3 +1,7 @@
+/* Margareth Vela
+Carné 19458
+Sección: 20
+*/
 //Program counter
 module counter(input wire clk, rst, enable, Load, input wire [11:0] Ld, output reg [11:0] PC);
   always @ (posedge clk, posedge rst) begin
